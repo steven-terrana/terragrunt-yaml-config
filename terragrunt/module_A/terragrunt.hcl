@@ -24,6 +24,9 @@ locals{
   }
 }
 
+# pass the module inputs by merging the
+# provided user configurations and merging in
+# any dependency outputs
 inputs = merge(local.inputs, {
   random = dependency.B.outputs.random
 })
