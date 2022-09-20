@@ -21,7 +21,7 @@ modules/
 ```
 # Run the example
 
-The magic happens in `terragrunt/module_A/terragrunt.hcl`
+The magic happens in [`terragrunt/module_A/terragrunt.hcl`](./terragrunt/module_A/terragrunt.hcl)
 
 ```
 cd terragrunt/module-A
